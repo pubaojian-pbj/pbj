@@ -1,0 +1,57 @@
+https://www.jianshu.com/p/1acdfac2b4e4?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendationjava后台
+https://github.com/TheCoderWw/JavaGuidejava实习生面试总结
+https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map         //java架构师学习流程
+https://blog.csdn.net/hp910315/article/details/48654777  		//拆箱装箱
+https://blog.csdn.net/v123411739/article/details/79561458 		//CAS原理
+
+https://www.cnblogs.com/chenssy/p/3372798.html				//多态
+http://www.cnblogs.com/chanshuyi/p/head_first_of_reflection.html	//反射
+https://www.cnblogs.com/web-java/p/5759376.html				//动态类型语言
+https://fair-jm.iteye.com/blog/1997108
+
+https://www.cnblogs.com/zuoxiaolong/category/509144.html		//设计模式
+https://blog.csdn.net/qq_39209361/article/details/82915840		//springmvc。struct流程
+https://www.bilibili.com/video/av25869969?from=search&seid=3949837882064785636 Nginx深度应用教学视频
+
+http://www.runoob.com/highcharts/highcharts-line-basic.html 		//Highcharts
+https://ueditor.baidu.com/website/onlinedemo.html 			//UEditor
+
+https://zhidao.baidu.com/question/59199692.html				//shmysql规范化
+
+https://www.cnblogs.com/zuoxiaolong/p/jvm6.html				分代收集算法
+https://blog.csdn.net/lqp276/article/category/6362836			//HOTSPOT
+https://blog.csdn.net/lqp276/article/details/52249438			//安全点
+https://www.cnblogs.com/zuoxiaolong/p/jvm5.html				复制算法和标记整理算法
+https://blog.csdn.net/u012998254/article/details/81635902		//收集器
+https://blog.csdn.net/u011546953/article/details/78994882		//CMS/G1
+https://blog.csdn.net/ifleetingtime/article/details/78934379		//OOPMAP,Remembered Set
+https://juejin.im/post/5c39920b6fb9a049e82bbf94				//CardTable
+https://blog.csdn.net/lisi1129/article/details/75645051			//垃圾收集算法总结
+
+
+https://blog.csdn.net/qq_31156277/article/details/80108277类文件结构
+https://blog.csdn.net/weijinqian0/article/details/52091655符号引用于直接引用
+
+
+https://www.jianshu.com/p/0b2ad1952506 java集合
+https://www.cnblogs.com/heyonggang/p/9112731.html	hashmap/hashtable/concurrentHashmap
+
+https://www.bilibili.com/video/av48988279?from=search&seid=14847889592471339750锁视频
+
+https://www.cnblogs.com/wade-luffy/p/6292784.html#_label0_1  B+树
+http://www.360doc.com/content/18/0904/19/25944647_783893127.shtml 红黑树
+https://www.cnblogs.com/wade-luffy/p/6292716.html InnoDB索引概述,二分查找法,平衡二叉树
+https://www.cnblogs.com/s-b-b/p/8334593.html    聚集索引与非聚集索引
+https://blog.csdn.net/shiyong1949/article/details/76154852 Hql拼接防止SQL恶意注入
+
+
+https://www.cnblogs.com/andy-zhou/p/5360107.html  seesion/cookie
+
+https://www.cnblogs.com/shizhijie/p/7997732.html   yum安装命令
+http://mirrors.163.com/centos/6/os/x86_64/Packages/ 包资源
+https://mvnrepository.com/                          包资源
+
+
+https://www.cnblogs.com/metoy/p/4321311.html   PRC原理
+https://www.cnblogs.com/gl-developer/p/6170423.html 
+https://www.cnblogs.com/LO-gin/p/6121519.html   MYSQL主从复制

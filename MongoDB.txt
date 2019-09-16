@@ -1,0 +1,142 @@
+ MongoDB学习笔记
+本机启动Mongodb服务器D:\MongoDB\bin>mongod --dbpath d:\mongodb\data\db
+启动mongo D:\MongoDB\bin>mongo.exe
+
+redis登录 redis-server.exe redis-cli.exe
+
+Xshell password:pubaojian_634410
+云服务器配置：https://juejin.im/post/5b137882e51d45067f16a8d0
+https://www.cnblogs.com/linjiqin/p/5488461.html
+
+
+
+
+
+
+
+1、每次启动需要配置启动文件
+　　mongod --dbpath G:\data\db
+　　执行完上面命令再打开一个新的窗口执行 mongo
+　　也可通过后台参数启动mongo：
+　　./mongod -dbpath /data/mongo/ -logpath /data/mongo/mongo.log -logappend -fork -port 27017
+ 
+ 
+2、show dbs #查看所有数据库
+　　use mydb #使用mydb数据库，没有当前数据库则创建
+　　show collections #查看该数据库下所有的表
+ 
+3、MongoDB中的查询
+　　db.col.find() #查看col集合下所有的document（document相当于mysql中的row）
+　　db.col.find().pretty() #以格式化的方式来显示所有文档
+　　db.col.find({"by":"菜鸟教程"}) #条件查询相当于sql中 where by = '菜鸟教程'
+　　db.col.find({"likes":{$lt:50}}) # where likes < 50
+　　db.col.find({"likes":{$lte:50}}) #where likes <= 50
+　　db.col.find({"likes":{$gt:50}}) # where likes > 50
+　　db.col.find({"likes":{$gte:50}}) #where likes >= 50
+　　db.col.find({"likes":{$ne:50}}) #where likes != 50
+　　db.col.find({"by":"菜鸟教程", "title":"MongoDB 教程"}) #WHERE by='菜鸟教程' AND title='MongoDB 教程'
+　　db.col.find({$or:[{"by":"菜鸟教程"},{"title": "MongoDB 教程"}]}) #WHERE by='菜鸟教程' OR title='MongoDB 教程'
+　　db.col.find({"likes": {$gt:50}, $or: [{"by": "菜鸟教程"},{"title": "MongoDB 教程"}]}) #where likes>50 AND (by = '菜鸟教程' OR title = 'MongoDB 教程')
+ 
+4、MongoDB中的删除
+　　db.col.remove({'title':'MongoDB 教程'}) #移除 title 为 'MongoDB 教程' 的文档
+　　db.col.remove({}) #删除col中的数据
+ 
+5、两种MongoDB中的插入
+　　db.col.insert({title: 'MongoDB 教程', description: 'MongoDB 是一个 Nosql 数据库', by: '菜鸟教程', url: 'http://www.runoob.com', tags: ['mongodb', 'database', 'NoSQL'], likes: 100 })
+ 
+　　document=({title: 'MongoDB 教程', description: 'MongoDB 是一个 Nosql 数据库', by: '菜鸟教程', url: 'http://www.runoob.com', tags: ['mongodb', 'database', 'NoSQL'], likes: 100 });
+　　db.col.insert(document)
+ 
+6、MongoDB中的更新
+　　db.col.update({'title':'MongoDB 教程'},{$set:{'title':'MongoDB'}}) #通过 update() 方法来更新标题(title)
+ 
+　　#save() 方法通过传入的文档来替换已有文档
+　　db.col.save({     "_id" : ObjectId("56064f89ade2f21f36b03136"), "title" : "MongoDB", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "Runoob", "url" : "http://www.runoob.com", "tags" : [ "mongodb", "NoSQL" ], "likes" : 110 }) #替换了 _id 为 56064f89ade2f21f36b03136 的文档数据
+ 
+7、MongoDB中的排序
+　　使用sort()方法对数据进行排序，sort()方法可以通过参数指定排序的字段，其中 1 为升序排列，而-1是用于降序排列
+　　db.col.find({},{"title":1,_id:0}).sort({"likes":-1}) #col 集合中的数据按字段 likes 的降序排列
+ 
+8、MongoDB中的索引
+　　db.col.ensureIndex({"title":1}) #为title字段建立索引，1为升序，2为降序
+　　db.col.ensureIndex({"title":1,"description":-1}) #使用多个字段创建索引（关系型数据库中称作复合索引）
+ 
+9、MongoDB中的聚合（aggregate）
+　　主要用于处理数据(诸如统计平均值,求和等)，并返回计算后的数据结果。有点类似sql语句中的 count(*)
+　　db.mycol.aggregate([{$group : {_id : "$by_user", num_tutorial : {$sum : 1}}}])  #集合计算每个作者所写的文章数，$sum计算总和，类似于select by_user as _id, count(*) as num_tutorial from mycol group by by_user
+ 
+10、一个Mongo工具 （Studio 3T for MongoDB）
+
+11、MongoDB 复制（副本集）
+
+MongoDB复制是将数据同步在多个服务器的过程。
+
+复制提供了数据的冗余备份，并在多个服务器上存储数据副本，提高了数据的可用性， 并可以保证数据的安全性。
+
+复制还允许您从硬件故障和服务中断中恢复数据。
+什么是复制?
+
+    保障数据的安全性
+    数据高可用性 (24*7)
+    灾难恢复
+    无需停机维护（如备份，重建索引，压缩）
+    分布式读取数据
+
+12、MongoDB 分片
+分片
+
+在Mongodb里面存在另一种集群，就是分片技术,可以满足MongoDB数据量大量增长的需求。
+
+当MongoDB存储海量的数据时，一台机器可能不足以存储数据，也可能不足以提供可接受的读写吞吐量。这时，我们就可以通过在多台机器上分割数据，使得数据库系统能存储和处理更多的数据。
+为什么使用分片
+
+    复制所有的写入操作到主节点
+    延迟的敏感数据会在主节点查询
+    单个副本集限制在12个节点
+    当请求量巨大时会出现内存不足。
+    本地磁盘不足
+    垂直扩展价格昂贵
+
+MongoDB分片
+
+下图展示了在MongoDB中使用分片集群结构分布：
+
+上图中主要有如下所述三个主要组件：
+
+    Shard:
+
+    用于存储实际的数据块，实际生产环境中一个shard server角色可由几台机器组个一个replica set承担，防止主机单点故障
+    Config Server:
+
+    mongod实例，存储了整个 ClusterMetadata，其中包括 chunk信息。
+    Query Routers:
+
+    前端路由，客户端由此接入，且让整个集群看上去像单一数据库，前端应用可以透明使用。
+
+13、MongoDB 备份(mongodump)与恢复(mongorestore)
+MongoDB数据备份
+
+在Mongodb中我们使用mongodump命令来备份MongoDB数据。该命令可以导出所有数据到指定目录中。
+
+mongodump命令可以通过参数指定导出的数据量级转存的服务器。
+语法
+
+mongodump命令脚本语法如下：
+
+>mongodump -h dbhost -d dbname -o dbdirectory
+
+    -h：
+
+    MongDB所在服务器地址，例如：127.0.0.1，当然也可以指定端口号：127.0.0.1:27017
+    -d：
+
+    需要备份的数据库实例，例如：test
+    -o：
+
+    备份的数据存放位置，例如：c:\data\dump，当然该目录需要提前建立，在备份完成后，系统自动在dump目录下建立一个test目录，这个目录里面存放该数据库实例的备份数据。 
+
+实例
+
+在本地使用 27017 启动你的mongod服务。打开命令提示符窗口，进入MongoDB安装目录的bin目录输入命令mongodump:
+ 
