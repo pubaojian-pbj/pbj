@@ -1,57 +1,58 @@
-https://www.jianshu.com/p/1acdfac2b4e4?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendationjavaºóÌ¨
-https://github.com/TheCoderWw/JavaGuidejavaÊµÏ°ÉúÃæÊÔ×Ü½á
-https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map         //java¼Ü¹¹Ê¦Ñ§Ï°Á÷³Ì
-https://blog.csdn.net/hp910315/article/details/48654777  		//²ğÏä×°Ïä
-https://blog.csdn.net/v123411739/article/details/79561458 		//CASÔ­Àí
+https://www.jianshu.com/p/1acdfac2b4e4?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendationjavaåå°
+https://github.com/TheCoderWw/JavaGuidejavaå®ä¹ ç”Ÿé¢è¯•æ€»ç»“
+https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map         //javaæ¶æ„å¸ˆå­¦ä¹ æµç¨‹
+https://blog.csdn.net/hp910315/article/details/48654777  		//æ‹†ç®±è£…ç®±
+https://blog.csdn.net/v123411739/article/details/79561458 		//CASåŸç†
 
-https://www.cnblogs.com/chenssy/p/3372798.html				//¶àÌ¬
-http://www.cnblogs.com/chanshuyi/p/head_first_of_reflection.html	//·´Éä
-https://www.cnblogs.com/web-java/p/5759376.html				//¶¯Ì¬ÀàĞÍÓïÑÔ
+https://www.cnblogs.com/chenssy/p/3372798.html				//å¤šæ€
+http://www.cnblogs.com/chanshuyi/p/head_first_of_reflection.html	//åå°„
+https://www.cnblogs.com/web-java/p/5759376.html				//åŠ¨æ€ç±»å‹è¯­è¨€
 https://fair-jm.iteye.com/blog/1997108
 
-https://www.cnblogs.com/zuoxiaolong/category/509144.html		//Éè¼ÆÄ£Ê½
-https://blog.csdn.net/qq_39209361/article/details/82915840		//springmvc¡£structÁ÷³Ì
-https://www.bilibili.com/video/av25869969?from=search&seid=3949837882064785636 NginxÉî¶ÈÓ¦ÓÃ½ÌÑ§ÊÓÆµ
+https://www.cnblogs.com/zuoxiaolong/category/509144.html		//è®¾è®¡æ¨¡å¼
+https://blog.csdn.net/qq_39209361/article/details/82915840		//springmvcã€‚structæµç¨‹
+https://www.bilibili.com/video/av25869969?from=search&seid=3949837882064785636 Nginxæ·±åº¦åº”ç”¨æ•™å­¦è§†é¢‘
 
 http://www.runoob.com/highcharts/highcharts-line-basic.html 		//Highcharts
 https://ueditor.baidu.com/website/onlinedemo.html 			//UEditor
 
-https://zhidao.baidu.com/question/59199692.html				//shmysql¹æ·¶»¯
+https://zhidao.baidu.com/question/59199692.html				//shmysqlè§„èŒƒåŒ–
 
-https://www.cnblogs.com/zuoxiaolong/p/jvm6.html				·Ö´úÊÕ¼¯Ëã·¨
+https://www.cnblogs.com/zuoxiaolong/p/jvm6.html				åˆ†ä»£æ”¶é›†ç®—æ³•
 https://blog.csdn.net/lqp276/article/category/6362836			//HOTSPOT
-https://blog.csdn.net/lqp276/article/details/52249438			//°²È«µã
-https://www.cnblogs.com/zuoxiaolong/p/jvm5.html				¸´ÖÆËã·¨ºÍ±ê¼ÇÕûÀíËã·¨
-https://blog.csdn.net/u012998254/article/details/81635902		//ÊÕ¼¯Æ÷
+https://blog.csdn.net/lqp276/article/details/52249438			//å®‰å…¨ç‚¹
+https://www.cnblogs.com/zuoxiaolong/p/jvm5.html				å¤åˆ¶ç®—æ³•å’Œæ ‡è®°æ•´ç†ç®—æ³•
+https://blog.csdn.net/u012998254/article/details/81635902		//æ”¶é›†å™¨
 https://blog.csdn.net/u011546953/article/details/78994882		//CMS/G1
 https://blog.csdn.net/ifleetingtime/article/details/78934379		//OOPMAP,Remembered Set
 https://juejin.im/post/5c39920b6fb9a049e82bbf94				//CardTable
-https://blog.csdn.net/lisi1129/article/details/75645051			//À¬»øÊÕ¼¯Ëã·¨×Ü½á
+https://blog.csdn.net/lisi1129/article/details/75645051			//åƒåœ¾æ”¶é›†ç®—æ³•æ€»ç»“
 
 
-https://blog.csdn.net/qq_31156277/article/details/80108277ÀàÎÄ¼ş½á¹¹
-https://blog.csdn.net/weijinqian0/article/details/52091655·ûºÅÒıÓÃÓÚÖ±½ÓÒıÓÃ
+https://blog.csdn.net/qq_31156277/article/details/80108277ç±»æ–‡ä»¶ç»“æ„
+https://blog.csdn.net/weijinqian0/article/details/52091655ç¬¦å·å¼•ç”¨äºç›´æ¥å¼•ç”¨
 
 
-https://www.jianshu.com/p/0b2ad1952506 java¼¯ºÏ
+https://www.jianshu.com/p/0b2ad1952506 javaé›†åˆ
 https://www.cnblogs.com/heyonggang/p/9112731.html	hashmap/hashtable/concurrentHashmap
 
-https://www.bilibili.com/video/av48988279?from=search&seid=14847889592471339750ËøÊÓÆµ
+https://www.bilibili.com/video/av48988279?from=search&seid=14847889592471339750é”è§†é¢‘
 
-https://www.cnblogs.com/wade-luffy/p/6292784.html#_label0_1  B+Ê÷
-http://www.360doc.com/content/18/0904/19/25944647_783893127.shtml ºìºÚÊ÷
-https://www.cnblogs.com/wade-luffy/p/6292716.html InnoDBË÷Òı¸ÅÊö,¶ş·Ö²éÕÒ·¨,Æ½ºâ¶ş²æÊ÷
-https://www.cnblogs.com/s-b-b/p/8334593.html    ¾Û¼¯Ë÷ÒıÓë·Ç¾Û¼¯Ë÷Òı
-https://blog.csdn.net/shiyong1949/article/details/76154852 HqlÆ´½Ó·ÀÖ¹SQL¶ñÒâ×¢Èë
+https://www.cnblogs.com/wade-luffy/p/6292784.html#_label0_1  B+æ ‘
+http://www.360doc.com/content/18/0904/19/25944647_783893127.shtml çº¢é»‘æ ‘
+https://www.cnblogs.com/wade-luffy/p/6292716.html InnoDBç´¢å¼•æ¦‚è¿°,äºŒåˆ†æŸ¥æ‰¾æ³•,å¹³è¡¡äºŒå‰æ ‘
+https://www.cnblogs.com/s-b-b/p/8334593.html    èšé›†ç´¢å¼•ä¸éèšé›†ç´¢å¼•
+https://blog.csdn.net/shiyong1949/article/details/76154852 Hqlæ‹¼æ¥é˜²æ­¢SQLæ¶æ„æ³¨å…¥
 
 
 https://www.cnblogs.com/andy-zhou/p/5360107.html  seesion/cookie
 
-https://www.cnblogs.com/shizhijie/p/7997732.html   yum°²×°ÃüÁî
-http://mirrors.163.com/centos/6/os/x86_64/Packages/ °ü×ÊÔ´
-https://mvnrepository.com/                          °ü×ÊÔ´
+https://www.cnblogs.com/shizhijie/p/7997732.html   yumå®‰è£…å‘½ä»¤
+http://mirrors.163.com/centos/6/os/x86_64/Packages/ åŒ…èµ„æº
+https://mvnrepository.com/                          åŒ…èµ„æº
 
 
-https://www.cnblogs.com/metoy/p/4321311.html   PRCÔ­Àí
+https://www.cnblogs.com/metoy/p/4321311.html   PRCåŸç†
 https://www.cnblogs.com/gl-developer/p/6170423.html 
-https://www.cnblogs.com/LO-gin/p/6121519.html   MYSQLÖ÷´Ó¸´ÖÆ
+https://www.cnblogs.com/LO-gin/p/6121519.html   MYSQLä¸»ä»å¤åˆ¶
+https://blog.51cto.com/walkerqt/2087839 pyhton3æ“ä½œHDFS
